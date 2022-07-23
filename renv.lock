@@ -43,16 +43,6 @@
         "lattice"
       ]
     },
-    "MetBrewer": {
-      "Package": "MetBrewer",
-      "Version": "0.2.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "9dda8af6359c4b3932426430c38fa1b1",
-      "Requirements": [
-        "ggplot2"
-      ]
-    },
     "R.methodsS3": {
       "Package": "R.methodsS3",
       "Version": "1.8.1",
@@ -97,16 +87,6 @@
       "Repository": "CRAN",
       "Hash": "45f0398006e83a5b10b72a90663d8d8c",
       "Requirements": []
-    },
-    "RCurl": {
-      "Package": "RCurl",
-      "Version": "1.98-1.7",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "b70bf7bef94b2a3fa09795b0594f3695",
-      "Requirements": [
-        "bitops"
-      ]
     },
     "Rcpp": {
       "Package": "Rcpp",
@@ -167,14 +147,6 @@
       "Requirements": [
         "bit"
       ]
-    },
-    "bitops": {
-      "Package": "bitops",
-      "Version": "1.0-7",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "b7d8d8ee39869c18d8846a184dd8a1af",
-      "Requirements": []
     },
     "blob": {
       "Package": "blob",
@@ -324,9 +296,10 @@
       "RemoteRepo": "datachimpRStudioPlugin",
       "RemoteUsername": "getdatachimp",
       "RemoteRef": "HEAD",
-      "RemoteSha": "4ce89fce6116f1a94b5821ab5a08c6e060942bc2",
-      "Hash": "89016582057a6dd321c6ff90095015ca",
+      "RemoteSha": "2a06c0a83889ba7085ffab5520b5e6486cb3ad36",
+      "Hash": "3b59043a837ece30595a985bd65d5fd0",
       "Requirements": [
+        "httr",
         "jsonlite",
         "later",
         "magrittr",
@@ -541,19 +514,6 @@
         "withr"
       ]
     },
-    "ggtext": {
-      "Package": "ggtext",
-      "Version": "0.1.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "03d8caec959ac70e2d13bad1ac40667c",
-      "Requirements": [
-        "ggplot2",
-        "gridtext",
-        "rlang",
-        "scales"
-      ]
-    },
     "gh": {
       "Package": "gh",
       "Version": "1.3.0",
@@ -628,23 +588,6 @@
         "rlang",
         "tibble",
         "vctrs"
-      ]
-    },
-    "gridtext": {
-      "Package": "gridtext",
-      "Version": "0.1.4",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "5ae1f617531ca2ae244647d9b21b5e74",
-      "Requirements": [
-        "RCurl",
-        "Rcpp",
-        "jpeg",
-        "markdown",
-        "png",
-        "rlang",
-        "stringr",
-        "xml2"
       ]
     },
     "gtable": {
@@ -752,14 +695,6 @@
       "Hash": "7ab57a6de7f48a8dc84910d1eca42883",
       "Requirements": []
     },
-    "jpeg": {
-      "Package": "jpeg",
-      "Version": "0.1-9",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "441ee36360a57b363f4fa3df0c364630",
-      "Requirements": []
-    },
     "jquerylib": {
       "Package": "jquerylib",
       "Version": "0.1.4",
@@ -854,17 +789,6 @@
       "Hash": "7ce2733a9826b3aeb1775d56fd305472",
       "Requirements": []
     },
-    "markdown": {
-      "Package": "markdown",
-      "Version": "1.1",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "61e4a10781dd00d7d81dd06ca9b94e95",
-      "Requirements": [
-        "mime",
-        "xfun"
-      ]
-    },
     "mgcv": {
       "Package": "mgcv",
       "Version": "1.8-40",
@@ -955,14 +879,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "01f28d4278f15c76cddbea05899c5d6f",
-      "Requirements": []
-    },
-    "png": {
-      "Package": "png",
-      "Version": "0.1-7",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "03b7076c234cb3331288919983326c55",
       "Requirements": []
     },
     "prettyunits": {
@@ -1104,10 +1020,10 @@
     },
     "rlang": {
       "Package": "rlang",
-      "Version": "1.0.4",
+      "Version": "1.0.3",
       "Source": "Repository",
       "Repository": "CRAN",
-      "Hash": "6539dd8c651e67e3b55b5ffea106362b",
+      "Hash": "9103a8f74b2114a5ed1136b471d8feca",
       "Requirements": []
     },
     "rmarkdown": {
@@ -1203,27 +1119,6 @@
         "stringr"
       ]
     },
-    "showtext": {
-      "Package": "showtext",
-      "Version": "0.9-5",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "b588dee88e238bf811e27f12edee9433",
-      "Requirements": [
-        "showtextdb",
-        "sysfonts"
-      ]
-    },
-    "showtextdb": {
-      "Package": "showtextdb",
-      "Version": "3.0",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "c12e756cf947e58b0f2c2a520521a5a8",
-      "Requirements": [
-        "sysfonts"
-      ]
-    },
     "stringi": {
       "Package": "stringi",
       "Version": "1.7.6",
@@ -1250,14 +1145,6 @@
       "Source": "Repository",
       "Repository": "CRAN",
       "Hash": "b227d13e29222b4574486cfcbde077fa",
-      "Requirements": []
-    },
-    "sysfonts": {
-      "Package": "sysfonts",
-      "Version": "0.8.8",
-      "Source": "Repository",
-      "Repository": "CRAN",
-      "Hash": "7f4dac41a3e348ae12832167e6beb875",
       "Requirements": []
     },
     "tibble": {
