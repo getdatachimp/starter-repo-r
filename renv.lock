@@ -296,8 +296,8 @@
       "RemoteRepo": "datachimpRStudioPlugin",
       "RemoteUsername": "getdatachimp",
       "RemoteRef": "main",
-      "RemoteSha": "ea945843e44ce8ec75e55692a1f32dad5484ad09",
-      "Hash": "adff87eacb2c412e8140862d8a74797c",
+      "RemoteSha": "5e11704b7bdec5dc305ebfdd97c8ba09a1aaaa77",
+      "Hash": "1253c72fa6173a165a80b628a1da4f99",
       "Requirements": [
         "httr",
         "jsonlite",
